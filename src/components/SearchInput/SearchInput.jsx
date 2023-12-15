@@ -19,7 +19,7 @@ export default function SearchInput({ isCheck, changeShot }) {
   }
 
   return (
-    <section className='search page__search'>
+    <section className='search search__page'>
       <div className='search__container'>
         <form noValidate className='search__form' name={'SearchForm'} value={values.search} onSubmit={onSubmit}>
           <input type="text" placeholder='Фильм' className='search__input' required onChange={handleChange}/>

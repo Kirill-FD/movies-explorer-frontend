@@ -1,17 +1,17 @@
-.page__login {
+.login__page {
     padding-top: 70px;
     margin: 0 auto;
     width: 396px;
   }
   
   @media screen and (max-width: 760px) {
-    .page__login {
+    .login__page {
       padding-top: 232px;
     }
   }
   
   @media screen and (max-width: 520px) {
-    .page__login {
+    .login__page {
       padding-top: 56px;
       width: calc(260/320*100%);
     }

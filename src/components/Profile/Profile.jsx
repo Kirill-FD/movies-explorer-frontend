@@ -20,7 +20,7 @@ export default function Profile({ name, setLoggedIn }) {
         setLoggedIn(false)
     }
     return (
-        <section className="profile page__profile">
+        <section className="profile profile__page">
             <h2 className='profile__title'>{`Привет, Кирилл!`}</h2>
             <Form
                 name={name}

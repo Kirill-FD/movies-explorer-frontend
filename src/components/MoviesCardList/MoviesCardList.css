@@ -1,9 +1,9 @@
-.page__gallery {
+.gallery__page {
   padding: 70px 70px 80px;
 }
 
 @media screen and (max-width: 1020px) {
-  .page__gallery {
+  .gallery__page {
     padding-top: 83px;
     padding-left: 30px;
     padding-right: 30px;
@@ -11,7 +11,7 @@
 }
 
 @media screen and (max-width: 760px) {
-  .page__gallery {
+  .gallery__page {
     padding-top: 50px;
     padding-left: 10px;
     padding-right: 10px;

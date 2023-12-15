@@ -2,6 +2,7 @@
     background-color: #222222;
     width: 100%;
     list-style-type: none;
+    border-radius: 5%;
   }
   
   .gallery__card-group {

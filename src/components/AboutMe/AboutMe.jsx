@@ -5,7 +5,7 @@ import Cover from "../Cover/Cover"
 
 export default function AboutMe() {
     return (
-        <section className="aboutme page__aboutme">
+        <section className="aboutme aboutme__page">
             <Cover>
                 <h2 className="aboutme__title">Студент</h2>
                 <div className="aboutme__container">

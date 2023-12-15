@@ -25,7 +25,7 @@ export default function MoviesCardList({ movies }) {
   }
 
   return (
-    <section className='gallery page__gallery'>
+    <section className='gallery gallery__page'>
       <ul className='gallery__lists'>
         {fact.map(data => {
           return (

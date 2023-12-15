@@ -1,4 +1,4 @@
-.page__header {
+.header__page {
     display: flex;
     justify-content: space-between;
     background-color: var(--secondary-color);
@@ -6,20 +6,20 @@
   }
   
   @media screen and (max-width:1020px) {
-    .page__header {
+    .header__page {
       padding-left: 30px;
       padding-right: 30px;
     }
   }
   
   @media screen and (max-width:760px) {
-    .page__header {
+    .header__page {
       padding-left: 14px;
       padding-right: 12px;
     }
   }
   
-  .page__header_type_page {
+  .header__page_type_page {
     background-color: transparent;
   }
   

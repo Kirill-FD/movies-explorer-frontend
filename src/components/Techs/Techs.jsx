@@ -3,7 +3,7 @@ import './Techs.css'
 
 export default function Techs() {
   return (
-    <section className="techs page__techs">
+    <section className="techs techs__page">
       <Cover>
         <h2 className="techs__title">Технологии</h2>
         <h3 className="techs__subtitle">7 технологий</h3>

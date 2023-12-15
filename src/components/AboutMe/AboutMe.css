@@ -1,17 +1,17 @@
-.page__aboutme {
+.aboutme__page {
   width: 100%;
   padding: 110px 0 101px;
 }
 
 @media screen and (max-width: 1020px) {
-  .page__aboutme {
+  .aboutme__page {
     padding-top: 90px;
     padding-bottom: 91px;
   }
 }
 
 @media screen and (max-width: 760px) {
-  .page__aboutme {
+  .aboutme__page {
     padding-top: 71px;
     padding-bottom: 70px;
   }

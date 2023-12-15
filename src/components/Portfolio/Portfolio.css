@@ -1,16 +1,16 @@
-.page__portfolio {
+.porfolio__page {
     width: 100%;
     padding-bottom: 105px;
   }
   
   @media screen and (max-width: 1020px) {
-    .page__portfolio {
+    .porfolio__page {
       padding-bottom: 69px;
     }
   }
   
   @media screen and (max-width: 760px) {
-    .page__portfolio {
+    .porfolio__page {
       padding-bottom: 50px;
     }
   }

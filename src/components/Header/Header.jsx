@@ -33,7 +33,7 @@ export default function Header({ name, loggedIn }) {
   }, [isOpen])
 
   return (
-    <header className={`header page__header ${name !== 'home' ? 'page__header_type_page' : ''}`}>
+    <header className={`header header__page ${name !== 'home' ? 'header__page_type_page' : ''}`}>
       <div>
         <Link to={'/'} className="header__link-home"></Link>
       </div>

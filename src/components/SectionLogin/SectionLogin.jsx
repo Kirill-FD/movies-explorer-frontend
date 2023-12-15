@@ -4,7 +4,7 @@ import './SectionLogin.css'
 
 export default function SectionLogin({ name, children, isValid, onSubmit }) {
   return (
-    <section className='login page__login'>
+    <section className='login login__page'>
       <Link to={'/'} className="login__link-home"></Link>
       <h2 className='login__title'>{name === 'signin' ? 'Рады видеть!' : 'Добро пожаловать!'}</h2>
       <Form name={name} isValid={isValid} onSubmit={onSubmit}>

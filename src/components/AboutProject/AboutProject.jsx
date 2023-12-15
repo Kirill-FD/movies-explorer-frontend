@@ -4,7 +4,7 @@ import './AboutProject.css'
 
 export default function AboutProject() {
   return (
-    <section id={"aboutProject"} className="about page__about">
+    <section id={"aboutProject"} className="about about__page">
       <Cover>
         <h2 className="about__title">О проекте</h2>
         <div className="about__container">

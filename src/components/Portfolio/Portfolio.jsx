@@ -4,7 +4,7 @@ import Cover from '../Cover/Cover'
 
 export default function Portfolio() {
   return (
-    <section className='portfolio page__portfolio'>
+    <section className='portfolio porfolio__page'>
       <Cover>
         <h2 className='portfolio__title'>Портфолио</h2>
         <nav className="portfolio__nav">
