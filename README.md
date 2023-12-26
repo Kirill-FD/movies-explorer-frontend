@@ -6,4 +6,4 @@
 
 ## Ссылка для фронтенда: https://kirbro.nomoredomainsmonster.ru
 
-## Ссылка на PullRequest: https://github.com/Kirbro36/movies-explorer-frontend/tree/level-3
+## Ссылка на PullRequest: #2
