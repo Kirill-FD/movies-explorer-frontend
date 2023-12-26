@@ -6,4 +6,4 @@
 
 ## Ссылка для фронтенда: https://kirbro.nomoredomainsmonster.ru
 
-## Ссылка на PullRequest: [#2](https://github.com/Kirbro36/movies-explorer-frontend/pull/2)https://github.com/Kirbro36/movies-explorer-frontend/pull/2
+## Ссылка на PullRequest: [#2](https://github.com/Kirbro36/movies-explorer-frontend/pull/2)
