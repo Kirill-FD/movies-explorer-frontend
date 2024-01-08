@@ -6,3 +6,4 @@
 
 ## Ссылка для фронтенда: https://kirbro.nomoredomainsmonster.ru
 
+## Ссылка на PR: [#3](https://github.com/Kirbro36/movies-explorer-frontend/pull/3)
