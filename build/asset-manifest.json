@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9e2aa045.css",
+    "main.js": "/static/js/main.eea38d78.js",
+    "static/js/787.5ac42188.chunk.js": "/static/js/787.5ac42188.chunk.js",
+    "static/media/photo.png": "/static/media/photo.c72fc89a0073bd1fc1c2.png",
+    "static/media/inter-v12-cyrillic_latin-500.svg": "/static/media/inter-v12-cyrillic_latin-500.bea79ba7b952c3b2ca75.svg",
+    "static/media/inter-v12-cyrillic_latin-regular.svg": "/static/media/inter-v12-cyrillic_latin-regular.b8db5cf5416facf0c5ec.svg",
+    "static/media/inter-v12-cyrillic_latin-500.ttf": "/static/media/inter-v12-cyrillic_latin-500.687eb2fe1210463ab8be.ttf",
+    "static/media/inter-v12-cyrillic_latin-regular.ttf": "/static/media/inter-v12-cyrillic_latin-regular.802dcc7fd08b70accfe5.ttf",
+    "static/media/promo-logo.png": "/static/media/promo-logo.bb46c7972982391e4f59.png",
+    "static/media/inter-v12-cyrillic_latin-500.woff": "/static/media/inter-v12-cyrillic_latin-500.4753236838a93bb49962.woff",
+    "static/media/inter-v12-cyrillic_latin-regular.woff": "/static/media/inter-v12-cyrillic_latin-regular.91db28991e6c1fc53e06.woff",
+    "static/media/inter-v12-cyrillic_latin-500.eot": "/static/media/inter-v12-cyrillic_latin-500.c6466655fa000f829295.eot",
+    "static/media/inter-v12-cyrillic_latin-regular.eot": "/static/media/inter-v12-cyrillic_latin-regular.5cf3086af82ba02ec2e9.eot",
+    "static/media/inter-v12-cyrillic_latin-500.woff2": "/static/media/inter-v12-cyrillic_latin-500.c9f11a4b1948aac797ac.woff2",
+    "static/media/inter-v12-cyrillic_latin-regular.woff2": "/static/media/inter-v12-cyrillic_latin-regular.b0a21561d96f6b662763.woff2",
+    "static/media/saveoff.svg": "/static/media/saveoff.cee536101fa367413546.svg",
+    "static/media/saveon.svg": "/static/media/saveon.e9dfa4121257c635dcef.svg",
+    "static/media/logo.svg": "/static/media/logo.f6cab7bf9c223562857b.svg",
+    "index.html": "/index.html",
+    "static/media/account.svg": "/static/media/account.1c0d82501e5ce0372149.svg",
+    "static/media/burger-mini.svg": "/static/media/burger-mini.8fbff9fbf489fb701798.svg",
+    "static/media/delete.svg": "/static/media/delete.4b58fcf39214bc6a3bcc.svg",
+    "static/media/burger.svg": "/static/media/burger.111cfc3a3545a9ff785c.svg",
+    "static/media/close-icon.svg": "/static/media/close-icon.d29fe99e15dcb5bff2b9.svg",
+    "static/media/search.svg": "/static/media/search.9e05fd03a882a51f379e.svg",
+    "static/media/strelka.svg": "/static/media/strelka.21d4a41cbd169bf0c5fe.svg",
+    "main.9e2aa045.css.map": "/static/css/main.9e2aa045.css.map",
+    "main.eea38d78.js.map": "/static/js/main.eea38d78.js.map",
+    "787.5ac42188.chunk.js.map": "/static/js/787.5ac42188.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e2aa045.css",
+    "static/js/main.eea38d78.js"
+  ]
+}
