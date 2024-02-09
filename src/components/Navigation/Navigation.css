@@ -1,0 +1,104 @@
+.navigate__overlay {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 999;
+}
+
+.navigate__menu {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 159px 90px 90px;
+  width: 520px;
+  background: #202020;
+  position: relative;
+  align-items: center;
+  min-height: 100vh;
+  transition: 0.8s ease-in-out;
+}
+
+@media screen and (max-width: 560px) {
+  .navigate__menu {
+    padding: 144px 10px 46px;
+    max-width: 320px;
+  }
+}
+
+.navigate__close-button {
+  position: absolute;
+  top: 22px;
+  right: 22px;
+  background-image: url("../../images/close-button.svg");
+  width: 22px;
+  height: 22px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.navigate__close-button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.navigate__links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navigate__button {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: normal;
+  width: max-content;
+  align-self: center;
+}
+
+.navigate__button:hover {
+  opacity: 0.7;
+}
+
+.navigate__button_active {
+  border-bottom: #fff 2px solid;
+}
+
+.navigate__buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+}
+
+.navigate__profile {
+  margin-top: 421px;
+  width: 100px;
+  height: 32px;
+  text-decoration: none;
+}
+
+.navigate__profile:hover {
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 1280px) {
+  .navigate__profile {
+    margin-top: 350px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .navigate__profile {
+    margin-top: 350px;
+  }
+}

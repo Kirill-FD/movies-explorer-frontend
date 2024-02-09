@@ -1,0 +1,140 @@
+.promo__page {
+  display: flex;
+  justify-content: space-between;
+  background-color: #073042;
+  padding: 75px 0;
+}
+
+@media screen and (max-width:1020px) {
+  .promo__page {
+    flex-direction: column;
+    align-items: center;
+    padding: 140px 0 76px;
+  }
+}
+
+@media screen and (max-width:760px) {
+  .promo__page {
+    padding: 70px 0 32px;
+  }
+}
+
+.promo__container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 70px;
+  width: calc(640/1280*100%);
+}
+
+@media screen and (max-width:1020px) {
+  .promo__container {
+    margin-left: 0;
+    align-items: center;
+    width: calc(680/768*100%);
+  }
+}
+
+@media screen and (max-width:760px) {
+  .promo__container {
+    width: calc(300/320*100%);
+  }
+}
+
+.promo__title {
+  margin: 0 0 36px 0;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 58px;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width:1020px) {
+  .promo__title {
+    text-align: center;
+    margin-bottom: 22px;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+  }
+}
+
+@media screen and (max-width:760px) {
+  .promo__title {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: -1.2px;
+  }
+}
+
+.promo__subtitle {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+  margin-bottom: 146px;
+  max-width: 310px;
+  color: rgba(255, 255, 255, .5)
+}
+
+@media screen and (max-width:1020px) {
+  .promo__subtitle {
+    text-align: center;
+    margin-bottom: 92px;
+    max-width: 260px;
+  }
+}
+
+@media screen and (max-width:760px) {
+  .promo__subtitle {
+    margin-bottom: 80px;
+  }
+}
+
+.promo__link {
+  display: block;
+  border-radius: 3px;
+  border: 1px solid #FFFFFF;
+  width: 129px;
+  min-height: 36px;
+  padding-top: 10px;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  color: #FFFFFF;
+  transition: opacity .3s linear;
+}
+
+.promo__decorate {
+  width: 310px;
+  height: 304px;
+  margin-right: 70px;
+  background-image: url('../../../images/promo-logo.png');
+  background-size: cover;
+}
+
+@media screen and (max-width:1020px) {
+  .promo__decorate {
+    order: -1;
+    margin-right: 0;
+    margin-bottom: 48px;
+  }
+}
+
+@media screen and (max-width:760px) {
+  .promo__decorate {
+    width: 210px;
+    height: 206px;
+    margin-bottom: 44px;
+  }
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .promo__link:hover {
+    opacity: .7;
+    cursor: pointer;
+  }
+}

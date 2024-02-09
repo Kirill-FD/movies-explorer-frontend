@@ -1,0 +1,147 @@
+.header {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 18px 70px 0;
+  min-height: 32px;
+  background: #073042;
+}
+
+@media screen and (max-width: 770px) {
+  .header {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .header {
+    padding-left: 20px;
+  }
+}
+
+.header_color {
+  background-color: #202020;
+}
+
+.header__buttons-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__movies-buttons {
+  display: flex;
+  gap: 20px;
+  margin-left: 120px;
+}
+
+.header__buttons-container_loggedIn {
+  gap: 38px;
+}
+
+.header__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 32px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 560px) {
+  .header__button {
+    min-height: 26px;
+    font-size: 10px;
+  }
+}
+
+.header__button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.header__button_loggedIn {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+@media screen and (max-width: 1020px) {
+  .header__button_loggedIn {
+    display: none;
+  }
+}
+
+.header__button-green {
+  color: #000;
+  background-color: #3ddc84;
+  min-width: 76px;
+  border-radius: 3px;
+}
+
+@media screen and (max-width: 560px) {
+  .header__button-green {
+    min-width: 54px;
+    max-height: 26px;
+  }
+}
+
+.header__button_active {
+  font-weight: 500;
+}
+
+@media screen and (max-width: 1020px) {
+  .header__button_active {
+    border-bottom: #fff 2px solid;
+  }
+}
+
+.header__profile-icon {
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+.header__enter-container {
+  margin-left: auto;
+  display: flex;
+  gap: 30px;
+}
+
+@media screen and (max-width: 560px) {
+  .header__enter-container {
+    margin-left: 120px;
+    gap: 10px;
+  }
+}
+
+.header__burger-menu-button {
+  width: 44px;
+  height: 44px;
+  display: none;
+  cursor: pointer;
+  border: none;
+  background: none;
+  padding: 0;
+}
+
+.header__burger-menu-button:hover {
+  cursor: pointer;
+  opacity: .7;
+}
+
+@media screen and (max-width: 1020px) {
+  .header__burger-menu-button {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .header__burger-menu-button {
+    width: 40px;
+    height: 43px;
+  }
+}
