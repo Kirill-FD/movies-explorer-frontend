@@ -5,3 +5,5 @@
 ## Ссылка для бэкенда: https://api.kirbro.nomoredomainsmonster.ru
 
 ## Ссылка для фронтенда: https://kirbro.nomoredomainsmonster.ru
+
+## Ссылка на PR: https://github.com/Kirbro36/movies-explorer-frontend/pull/5
